@@ -19,6 +19,8 @@
 		4B4D73A32B59A12800798670 /* FinVistaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73A22B59A12800798670 /* FinVistaUITestsLaunchTests.swift */; };
 		4B4D73B02B59A18200798670 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73AF2B59A18100798670 /* MainViewController.swift */; };
 		4B4D73B62B59A21D00798670 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B52B59A21D00798670 /* DashboardViewController.swift */; };
+		4B4D73B82B59B40900798670 /* ValuePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B72B59B40900798670 /* ValuePreviewView.swift */; };
+		4B4D73BA2B59CBC400798670 /* DashboardSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		4B4D73A22B59A12800798670 /* FinVistaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinVistaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B4D73AF2B59A18100798670 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4B4D73B52B59A21D00798670 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4B4D73B72B59B40900798670 /* ValuePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePreviewView.swift; sourceTree = "<group>"; };
+		4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 		4B4D73B22B59A1C500798670 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4B4D73B72B59B40900798670 /* ValuePreviewView.swift */,
+				4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4D73BA2B59CBC400798670 /* DashboardSelectionView.swift in Sources */,
 				4B4D73812B59A12400798670 /* ViewController.swift in Sources */,
 				4B4D73B62B59A21D00798670 /* DashboardViewController.swift in Sources */,
+				4B4D73B82B59B40900798670 /* ValuePreviewView.swift in Sources */,
 				4B4D73872B59A12400798670 /* FinVista.xcdatamodeld in Sources */,
 				4B4D737D2B59A12400798670 /* AppDelegate.swift in Sources */,
 				4B4D737F2B59A12400798670 /* SceneDelegate.swift in Sources */,
