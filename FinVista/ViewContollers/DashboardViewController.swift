@@ -21,9 +21,12 @@ class DashboardViewController: UIViewController {
         super.viewDidLoad()
         
         self.navigationItem.backBarButtonItem?.isEnabled = false
-        view.backgroundColor = UIColor(red: 0.698, green: 0.871, blue: 0.153, alpha: 1)
+        view.backgroundColor = .FVFuegoGreen
         
         titleLabel.text = "FinVista"
+        titleLabel.textColor = .FVNavyBlue
+        titleLabel.backgroundColor = .FVLynxWhite
+        titleLabel.font = UIFont.systemFont(ofSize: 26.0, weight: .bold)
         
         setupSubviews()
         
@@ -42,6 +45,7 @@ class DashboardViewController: UIViewController {
         balancePreview.titleLabel.text = "Balance"
         balancePreview.subtitleLabel.text = "Total: "
         balancePreview.valueLabel.text = "$590,000"
+        balancePreview.viewTapped(target: self, action: #selector(balanceViewTapped))
         
         incomePreview.titleLabel.text = "Income"
         incomePreview.subtitleLabel.text = "Total: "
@@ -54,10 +58,21 @@ class DashboardViewController: UIViewController {
         expensesPreview.titleLabel.text = "Expenses"
         expensesPreview.subtitleLabel.text = "Per Month: "
         expensesPreview.valueLabel.text = "$1,500"
+        expensesPreview.viewTapped(target: self, action: #selector(expensesViewTapped))
         
         goalsSelectionView.titleLabel.text = "Goals"
         
         investmentsSelectionView.titleLabel.text = "Investments"
+    }
+    
+    @objc private func balanceViewTapped(_ sender: UITapGestureRecognizer) {
+        let VC = BalanceViewController()
+        self.navigationController?.pushViewController(VC, animated: true)
+    }
+    
+    @objc private func expensesViewTapped(_ sender: UITapGestureRecognizer) {
+        let VC = ExpenseTrackingViewController()
+        self.navigationController?.pushViewController(VC, animated: true)
     }
     
     private func setConstraints() {

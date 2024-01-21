@@ -21,6 +21,12 @@
 		4B4D73B62B59A21D00798670 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B52B59A21D00798670 /* DashboardViewController.swift */; };
 		4B4D73B82B59B40900798670 /* ValuePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B72B59B40900798670 /* ValuePreviewView.swift */; };
 		4B4D73BA2B59CBC400798670 /* DashboardSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */; };
+		4B4D73BD2B59D22B00798670 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73BC2B59D22B00798670 /* UIColor+Extensions.swift */; };
+		4BAD69FE2B5AB8E400EA89E4 /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD69FD2B5AB8E400EA89E4 /* BalanceViewController.swift */; };
+		4BAD6A002B5AB91800EA89E4 /* ValueTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD69FF2B5AB91800EA89E4 /* ValueTextFieldView.swift */; };
+		4BAD6A022B5ABD1C00EA89E4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A012B5ABD1C00EA89E4 /* UIView+Extensions.swift */; };
+		4BAD6A042B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */; };
+		4BAD6A072B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A062B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		4B4D73B52B59A21D00798670 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		4B4D73B72B59B40900798670 /* ValuePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePreviewView.swift; sourceTree = "<group>"; };
 		4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSelectionView.swift; sourceTree = "<group>"; };
+		4B4D73BC2B59D22B00798670 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		4BAD69FD2B5AB8E400EA89E4 /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		4BAD69FF2B5AB91800EA89E4 /* ValueTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTextFieldView.swift; sourceTree = "<group>"; };
+		4BAD6A012B5ABD1C00EA89E4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackingViewController.swift; sourceTree = "<group>"; };
+		4BAD6A062B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseHistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,7 @@
 		4B4D737B2B59A12400798670 /* FinVista */ = {
 			isa = PBXGroup;
 			children = (
+				4B4D73BB2B59D1DF00798670 /* Extensions */,
 				4B4D73B42B59A1D300798670 /* Networking */,
 				4B4D73B32B59A1CD00798670 /* Models */,
 				4B4D73B22B59A1C500798670 /* Views */,
@@ -147,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				4B4D73B52B59A21D00798670 /* DashboardViewController.swift */,
+				4BAD69FD2B5AB8E400EA89E4 /* BalanceViewController.swift */,
+				4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */,
 			);
 			path = ViewContollers;
 			sourceTree = "<group>";
@@ -154,8 +169,10 @@
 		4B4D73B22B59A1C500798670 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4BAD6A052B5AC72600EA89E4 /* TableViewCells */,
 				4B4D73B72B59B40900798670 /* ValuePreviewView.swift */,
 				4B4D73B92B59CBC400798670 /* DashboardSelectionView.swift */,
+				4BAD69FF2B5AB91800EA89E4 /* ValueTextFieldView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +189,23 @@
 			children = (
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		4B4D73BB2B59D1DF00798670 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B4D73BC2B59D22B00798670 /* UIColor+Extensions.swift */,
+				4BAD6A012B5ABD1C00EA89E4 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BAD6A052B5AC72600EA89E4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4BAD6A062B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,12 +340,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4D73BA2B59CBC400798670 /* DashboardSelectionView.swift in Sources */,
+				4BAD6A002B5AB91800EA89E4 /* ValueTextFieldView.swift in Sources */,
 				4B4D73812B59A12400798670 /* ViewController.swift in Sources */,
+				4BAD6A042B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift in Sources */,
 				4B4D73B62B59A21D00798670 /* DashboardViewController.swift in Sources */,
 				4B4D73B82B59B40900798670 /* ValuePreviewView.swift in Sources */,
 				4B4D73872B59A12400798670 /* FinVista.xcdatamodeld in Sources */,
+				4BAD6A022B5ABD1C00EA89E4 /* UIView+Extensions.swift in Sources */,
 				4B4D737D2B59A12400798670 /* AppDelegate.swift in Sources */,
+				4BAD6A072B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift in Sources */,
 				4B4D737F2B59A12400798670 /* SceneDelegate.swift in Sources */,
+				4BAD69FE2B5AB8E400EA89E4 /* BalanceViewController.swift in Sources */,
+				4B4D73BD2B59D22B00798670 /* UIColor+Extensions.swift in Sources */,
 				4B4D73B02B59A18200798670 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

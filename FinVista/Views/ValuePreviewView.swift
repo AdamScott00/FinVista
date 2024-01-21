@@ -17,13 +17,11 @@ class ValuePreviewView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = UIColor(red: 0.9686, green: 0.97647, blue: 0.9686, alpha: 1)
+        backgroundColor = .FVLynxWhite
         
-        let navyBlue = UIColor(red: 0, green: 0.122, blue: 0.247, alpha: 1)
-        
-        titleLabel.textColor = navyBlue
-        subtitleLabel.textColor = navyBlue
-        valueLabel.textColor = navyBlue
+        titleLabel.textColor = .FVNavyBlue
+        subtitleLabel.textColor = .FVNavyBlue
+        valueLabel.textColor = .FVNavyBlue
         
         titleLabel.font = UIFont.systemFont(ofSize: 18.0, weight: .bold)
         subtitleLabel.font = UIFont.systemFont(ofSize: 14.0, weight: .semibold)
