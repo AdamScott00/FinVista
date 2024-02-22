@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0CAE382B8405750058E642 /* EditExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CAE372B8405750058E642 /* EditExpenseViewController.swift */; };
 		4B4D737D2B59A12400798670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D737C2B59A12400798670 /* AppDelegate.swift */; };
 		4B4D737F2B59A12400798670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D737E2B59A12400798670 /* SceneDelegate.swift */; };
 		4B4D73812B59A12400798670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D73802B59A12400798670 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		4BAD6A022B5ABD1C00EA89E4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A012B5ABD1C00EA89E4 /* UIView+Extensions.swift */; };
 		4BAD6A042B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */; };
 		4BAD6A072B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A062B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift */; };
+		4BAD6A092B5ED76D00EA89E4 /* CreateExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6A082B5ED76D00EA89E4 /* CreateExpenseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B0CAE372B8405750058E642 /* EditExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseViewController.swift; sourceTree = "<group>"; };
 		4B4D73792B59A12400798670 /* FinVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4D737C2B59A12400798670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B4D737E2B59A12400798670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		4BAD6A012B5ABD1C00EA89E4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackingViewController.swift; sourceTree = "<group>"; };
 		4BAD6A062B5AC75000EA89E4 /* ExpenseHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4BAD6A082B5ED76D00EA89E4 /* CreateExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpenseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 				4B4D73B52B59A21D00798670 /* DashboardViewController.swift */,
 				4BAD69FD2B5AB8E400EA89E4 /* BalanceViewController.swift */,
 				4BAD6A032B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift */,
+				4BAD6A082B5ED76D00EA89E4 /* CreateExpenseViewController.swift */,
+				4B0CAE372B8405750058E642 /* EditExpenseViewController.swift */,
 			);
 			path = ViewContollers;
 			sourceTree = "<group>";
@@ -341,10 +347,12 @@
 			files = (
 				4B4D73BA2B59CBC400798670 /* DashboardSelectionView.swift in Sources */,
 				4BAD6A002B5AB91800EA89E4 /* ValueTextFieldView.swift in Sources */,
+				4BAD6A092B5ED76D00EA89E4 /* CreateExpenseViewController.swift in Sources */,
 				4B4D73812B59A12400798670 /* ViewController.swift in Sources */,
 				4BAD6A042B5AC3FA00EA89E4 /* ExpenseTrackingViewController.swift in Sources */,
 				4B4D73B62B59A21D00798670 /* DashboardViewController.swift in Sources */,
 				4B4D73B82B59B40900798670 /* ValuePreviewView.swift in Sources */,
+				4B0CAE382B8405750058E642 /* EditExpenseViewController.swift in Sources */,
 				4B4D73872B59A12400798670 /* FinVista.xcdatamodeld in Sources */,
 				4BAD6A022B5ABD1C00EA89E4 /* UIView+Extensions.swift in Sources */,
 				4B4D737D2B59A12400798670 /* AppDelegate.swift in Sources */,
